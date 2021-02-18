@@ -29,7 +29,7 @@ nc.onStatus = function (info) {
 nc.rpcName = function (...args) {
 	console.log('server called rpcName', ...args);
 };
-nc.connect('rtmp://127.0.0.1:1935');
+nc.connect('rtmp://127.0.0.1:1935/app/instance');
 ```
 
 Documentation: [netconnection-class.html](https://helpx.adobe.com/adobe-media-server/ssaslr/netconnection-class.html)
