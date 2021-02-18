@@ -8,6 +8,10 @@
   },
   "author": "David Csirmaz",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:csimi/rtmp-client.git"
+  },
   "dependencies": {
     "amf-codec": "^1.2.0"
   },
