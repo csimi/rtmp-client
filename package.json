@@ -1,0 +1,25 @@
+{
+  "name": "rtmp-client",
+  "version": "1.0.0",
+  "description": "RTMP client",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "David Csirmaz",
+  "license": "ISC",
+  "dependencies": {
+    "amf-codec": "^1.2.0"
+  },
+  "devDependencies": {
+    "@csimi/eslint-config": "^3.0.0",
+    "eslint": "^7.17.0"
+  },
+  "files": [
+    "lib/**"
+  ],
+  "keywords": [
+    "rtmp",
+    "client"
+  ]
+}
