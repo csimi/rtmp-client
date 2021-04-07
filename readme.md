@@ -26,7 +26,7 @@ nc.onStatus = function (info) {
 		}, 'bar');
 	}
 };
-nc.rpcName = function (...args) {
+nc.rpcName = async function (...args) {
 	console.log('server called rpcName', ...args);
 };
 nc.connect('rtmp://127.0.0.1:1935/app/instance');
