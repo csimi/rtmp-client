@@ -20,7 +20,7 @@ const { NetConnection } = require('rtmp-client');
 const nc = new NetConnection();
 nc.onStatus = function (info) {
 	if (info.code === 'NetConnection.Connect.Success') {
-		nc.call(foo, {
+		nc.call('foo', {
 			'onResult': console.log.bind(console),
 			'onStatus': console.error.bind(console),
 		}, 'bar');
