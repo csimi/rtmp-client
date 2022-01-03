@@ -131,6 +131,8 @@ Example:
 
 Version: server version
 
+Flags: 16 and 0
+
 Data: none (length 0)
 
 Example:
@@ -201,4 +203,19 @@ Example (including type 3 event):
 ```
 3, 0, 0, 0, 11, 0, 3, 'f', 'o', 'o', 2, 0, 3, 'b', 'a', 'r'
 13, 0, 0, 0, 11, 0, 3, 'f', 'o', 'o', 2, 0, 3, 'b', 'a', 'r'
+```
+
+## Unknown type (=14)
+
+Requests to clear the Shared Object.
+
+Version: client version
+
+Flags: 16 and 0
+
+Data: none (length 0)
+
+Example:
+```
+14, 0, 0, 0, 0
 ```
