@@ -40,9 +40,9 @@ Not sure if the two values are both flags or the second one is something undocum
 
 ## Event Type
 
-Size: 4 bytes
+Size: 1 byte
 
-Value: UInt32BE
+Value: UInt8
 
 ## Event data length
 
