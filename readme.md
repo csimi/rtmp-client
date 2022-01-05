@@ -40,7 +40,7 @@ Since there was nothing in the RTMP spec about the messages, I've documented the
 
 ```
 const so = SharedObject.get('foo', false, nc);
-so.onStatus = (info) {
+so.onStatus = (info) => {
 	console.log(info);
 };
 so.onSync = (list) => {
