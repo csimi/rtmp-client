@@ -50,6 +50,16 @@ so.onSync = (list) => {
 
 Documentation: [sharedobject-class.html](https://helpx.adobe.com/adobe-media-server/ssaslr/sharedobject-class.html)
 
+## Client
+
+The Client class used behind NetConnection is also exported but undocumented.
+
+Check the source code in [Client.js](https://github.com/csimi/rtmp-client/blob/master/lib/Client.js) if you need to use it for example to create an RTMP server.
+
+```
+const { Client } = require('rtmp-client');
+```
+
 # Implementation status
 
 - [x] NetConnection
