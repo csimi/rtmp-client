@@ -116,6 +116,9 @@ Unknown. Could be related to .send() and handlerName()?
 
 Flags: 16 or 48 and 0
 
+- 48 when read access has been denied as a response to use message
+- 16 when write access has ben denied
+
 Data: two UTF8 strings
 
 First value is the code, second one is the level.
