@@ -65,7 +65,13 @@ const { Client } = require('rtmp-client');
 - [x] NetConnection
 - [x] SharedObject
 	- [x] basic functionality
-	- [ ] lock()/mark()/unlock() (non-proxied)
-	- [ ] send()/handlerName()
+	- [x] lock()/unlock() (non-proxied)
+	- [ ] mark()/send()/handlerName()
 - [ ] Stream
 - [ ] NetStream
+
+## Lock/unlock
+
+Based on observation lock() should defer writes from clients until unlock() is called.
+
+Right now this functionality is not directly implemented, but technically consumer code could simulate it.

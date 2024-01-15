@@ -130,6 +130,10 @@ Example:
 0, 5, 'e', 'r', 'r', 'o', 'r'
 ```
 
+__Extra information:__
+
+- For NoWriteAccess error the current value of the property should also be sent back to the client.
+
 ### Clear (=8)
 
 Version: server version
