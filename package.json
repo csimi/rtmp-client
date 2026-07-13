@@ -14,7 +14,7 @@
     "url": "git+ssh://git@github.com/csimi/rtmp-client.git"
   },
   "dependencies": {
-    "amf-codec": "^1.4.0"
+    "amf-codec": "^1.4.1"
   },
   "devDependencies": {
     "@csimi/eslint-config": "^4.0.1",
