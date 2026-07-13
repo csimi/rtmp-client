@@ -17,8 +17,8 @@
     "amf-codec": "^1.4.0"
   },
   "devDependencies": {
-    "@csimi/eslint-config": "^3.0.0",
-    "eslint": "^7.17.0"
+    "@csimi/eslint-config": "^4.0.1",
+    "eslint": "^8.57.1"
   },
   "files": [
     "lib/**"
