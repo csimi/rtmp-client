@@ -1,4 +1,5 @@
 [![npm version](https://img.shields.io/npm/v/rtmp-client.svg?logo=npm)](https://www.npmjs.com/package/rtmp-client)
+[![build status](https://github.com/csimi/rtmp-client/workflows/build/badge.svg)](https://github.com/csimi/rtmp-client/actions)
 
 # About
 
